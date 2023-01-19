@@ -333,7 +333,17 @@ public class main {
 //            		hotelShillaData.put("attachment", attachmentList);
             		
             		responseBody.put("data", hotelShillaData);
+            	} else if(exchange.getRequestURI().toString().contains("/test")) {
+            		
+            		JSONObject testObject = new JSONObject();
+            		
+            		testObject.put("content", "Hello~");
+            		
+            		
+            		responseBody.put("body", testObject);
+            		
             	}
+            	
             	
             	System.out.println("===================================================================");
             	System.out.println(
