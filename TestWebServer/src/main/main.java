@@ -339,7 +339,6 @@ public class main {
             		
             		testObject.put("content", "Hello~");
             		
-            		
             		responseBody.put("body", testObject);
             		
             	}
