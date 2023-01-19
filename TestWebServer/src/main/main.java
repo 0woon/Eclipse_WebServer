@@ -337,11 +337,11 @@ public class main {
             		
             		JSONObject testObject = new JSONObject();
             		
-            		testObject.put("content", "Bye~");
+            		testObject.put("content", "Hello~");
             		
             		responseBody.put("body", testObject);
             		
-            	} {
+            	}
             	
             	
             	System.out.println("===================================================================");
